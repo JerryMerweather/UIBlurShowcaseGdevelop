@@ -1,0 +1,3891 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 213,
+    "major": 5,
+    "minor": 4,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": false,
+    "orientation": "landscape",
+    "packageName": "roguecat.gdevelop.blurshowcase",
+    "pixelsRounding": false,
+    "projectUuid": "42e67d8a-6743-4b6a-997d-8ae7a3838d43",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "Blur UI Showcase",
+    "description": "A Simple project showcasing a ui element with its background \nblurred witth the option to toggle between dynamic and static blur",
+    "author": "",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 2,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": false
+    },
+    "authorIds": [
+      "hbIxL96OxiSxqX3ocIG1I1kYLoj2"
+    ],
+    "authorUsernames": [
+      "RogueCat"
+    ],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite.png\"}",
+        "name": "NewSprite",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite2.png\"}",
+        "name": "NewSprite2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default-panel-border (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel-border (1).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Borders/922e2257fdb26c139fa8125e93038335c4be9b1a7f999c93128b6c0f72368c56_Default-panel-border (1).png",
+          "name": "Default-panel-border (1).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite5.png\"}",
+        "name": "NewSprite5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Forest Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Forest Background.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/9c836518da4f93f1a442e4beaa4023bdde907296b1a03f5562a73693fac0f778_tiled_Forest Background.png",
+          "name": "tiled_Forest Background.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite7.png\"}",
+        "name": "NewSprite7",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite8.png\"}",
+        "name": "NewSprite8",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite9",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite10.png\"}",
+        "name": "NewSprite10",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite11",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default-panel-border (26).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel-border (26).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Borders/320b5b09dcd554331d73a253cde23df01b2786f0e8724efc27dda6edce9aa0c4_Default-panel-border (26).png",
+          "name": "Default-panel-border (26).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default panel-transparent-center (32).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default panel-transparent-center (32).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Transparent Panels/2441b34965a373b9e6fda55f5b207a94ade5718177e3070c83bb0e92296d01eb_Default panel-transparent-center (32).png",
+          "name": "Default panel-transparent-center (32).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default panel-transparent-center (15).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default panel-transparent-center (15).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Transparent Panels/e057f0a5d7d9322a3628de8ff9aa7cbb399f2f69014d46626beef31451435e42_Default panel-transparent-center (15).png",
+          "name": "Default panel-transparent-center (15).png"
+        }
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Untitled_32scene",
+      "name": "Untitled scene",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": true,
+        "gridType": "rectangular",
+        "gridWidth": 16,
+        "gridHeight": 16,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": true,
+        "zoomFactor": 0.5653158055126322,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "Static",
+          "type": "boolean",
+          "value": true
+        }
+      ],
+      "instances": [
+        {
+          "angle": 15,
+          "customSize": true,
+          "depth": 1,
+          "height": 216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite2",
+          "persistentUuid": "909a209c-d06c-4777-9d6e-bbcc653d5640",
+          "width": 247,
+          "x": 855,
+          "y": 204,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 330,
+          "customSize": true,
+          "depth": 3,
+          "height": 197,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "47bb4e0d-3802-44ec-ae49-de8a23d783b5",
+          "width": 197,
+          "x": 537,
+          "y": 196,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 60,
+          "customSize": true,
+          "depth": 3,
+          "height": 197,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "066631ae-5836-44a7-8dc6-baa402581911",
+          "width": 197,
+          "x": 716,
+          "y": 19,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 105,
+          "customSize": true,
+          "depth": 1,
+          "height": 216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite2",
+          "persistentUuid": "4de6f53d-638a-4958-bdc3-833785412bb2",
+          "width": 247,
+          "x": 673,
+          "y": 390,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 165,
+          "customSize": true,
+          "depth": 3,
+          "height": 197,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "5e8bb62f-2eb4-465a-9cc8-ba45baed1a01",
+          "width": 197,
+          "x": 1186,
+          "y": 83,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 210,
+          "customSize": true,
+          "depth": 1,
+          "height": 216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite2",
+          "persistentUuid": "5529c160-2e09-4875-88e0-7e82888d41c5",
+          "width": 247,
+          "x": 1058,
+          "y": 527,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 120,
+          "customSize": true,
+          "depth": 1,
+          "height": 216,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite2",
+          "persistentUuid": "884e707a-26fa-4f01-b85a-ff17b83dcbee",
+          "width": 247,
+          "x": 536,
+          "y": 663,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 512,
+          "keepRatio": true,
+          "layer": "Layer",
+          "name": "NewSprite3",
+          "persistentUuid": "9d95238a-f12d-4c9b-a9b1-03f6007b03a7",
+          "width": 512,
+          "x": 704,
+          "y": 96,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 11
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Layer",
+          "name": "BG",
+          "persistentUuid": "597f288d-e20d-4b4a-9f84-8c918fd677e9",
+          "width": 0,
+          "x": 1445,
+          "y": 252,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1268,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ForestBackground",
+          "persistentUuid": "e7a29e72-10cb-410e-8735-99fe7d2dbc20",
+          "width": 1844,
+          "x": -320,
+          "y": -84,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 512,
+          "keepRatio": true,
+          "layer": "Layer",
+          "name": "DefaultTransparentPanel31",
+          "persistentUuid": "7be24d30-e25d-40dc-b2c0-088463312fb2",
+          "width": 512,
+          "x": 368,
+          "y": 96,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Layer",
+          "name": "NewText",
+          "persistentUuid": "9acc45d5-98e6-4ab5-90cb-ae42316ccdff",
+          "width": 0,
+          "x": -400,
+          "y": 176,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite11",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite12",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite7",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite8",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite10",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewSprite3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "BG",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite4",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite6",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "90cac64ec9901c742b38aea323e8c52dc954197bfb5511ef86067aa187ac06c4",
+          "height": 1024,
+          "name": "ForestBackground",
+          "texture": "tiled_Forest Background.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 1024,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "f51f3912c0b0baf4c4e5f29435a4865c94a0ec6272127628b48b0eefb3e14084",
+          "bottomMargin": 16,
+          "height": 48,
+          "leftMargin": 16,
+          "name": "DefaultTransparentPanel31",
+          "rightMargin": 16,
+          "texture": "Default panel-transparent-center (32).png",
+          "tiled": false,
+          "topMargin": 16,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 48,
+          "variables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "NewText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Blur Demo\nDouble Tap to \ntoggle between\nstatic blur and \ndynamic blur",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 48,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 5,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 50,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 0,
+            "shadowOpacity": 80,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Blur Demo\nDouble Tap to \ntoggle between\nstatic blur and \ndynamic blur",
+            "font": "",
+            "textAlignment": "center",
+            "characterSize": 48,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "4c5407ea7dbb783f08390d7efc1e75d92814a3a2db77be130324ecf3815353c0",
+          "bottomMargin": 16,
+          "height": 48,
+          "leftMargin": 16,
+          "name": "DefaultTransparentPanel14",
+          "rightMargin": 16,
+          "texture": "Default panel-transparent-center (15).png",
+          "tiled": false,
+          "topMargin": 16,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 48,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": true,
+          "name": "Button",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Show Me How",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 42,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": true,
+            "italic": true,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 5,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 50,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 0,
+            "shadowOpacity": 180,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Show Me How",
+            "font": "",
+            "textAlignment": "center",
+            "characterSize": 42,
+            "color": "0;0;0"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "NewSprite"
+          },
+          {
+            "objectName": "NewSprite2"
+          },
+          {
+            "objectName": "NewSprite3"
+          },
+          {
+            "objectName": "BG"
+          },
+          {
+            "objectName": "ForestBackground"
+          },
+          {
+            "objectName": "DefaultTransparentPanel31"
+          },
+          {
+            "objectName": "NewText"
+          },
+          {
+            "objectName": "Button"
+          },
+          {
+            "objectName": "DefaultTransparentPanel14"
+          }
+        ]
+      },
+      "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Setup",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EnableLayerEffect"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "\"Blur\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "BG",
+                    "Resizable",
+                    "CameraWidth()",
+                    "CameraHeight()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "BG",
+                    "=",
+                    "0",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"blur refresh\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Rotating square",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Rotate"
+                  },
+                  "parameters": [
+                    "NewSprite",
+                    "100",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Rotate"
+                  },
+                  "parameters": [
+                    "NewSprite2",
+                    "-100",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Moving window",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetCenter"
+                  },
+                  "parameters": [
+                    "NewText",
+                    "=",
+                    "NewSprite3.CenterX()",
+                    "=",
+                    "NewSprite3.CenterY()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCenter"
+                  },
+                  "parameters": [
+                    "DefaultTransparentPanel31",
+                    "=",
+                    "NewSprite3.CenterX()",
+                    "=",
+                    "NewSprite3.CenterY()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "DefaultTransparentPanel31",
+                    "Resizable",
+                    "NewSprite3.Width()",
+                    "NewSprite3.Height()"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Static blur switch",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DoubleClick::HasDoubleClicked"
+                  },
+                  "parameters": [
+                    "",
+                    "Left",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Static",
+                    "Toggle",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Static",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "NewText",
+                    "\"208;2;27\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Static",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "NewText",
+                    "\"0;0;0\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Blur",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Static",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AjoutObjConcern"
+                  },
+                  "parameters": [
+                    "",
+                    "NewSprite3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EnableLayerEffect"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "\"Blur\"",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RenderToSprite::RenderLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "BG",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EnableLayerEffect"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "\"Blur\"",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AjoutObjConcern"
+                  },
+                  "parameters": [
+                    "",
+                    "NewSprite3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SpriteMasking::Mask"
+                  },
+                  "parameters": [
+                    "",
+                    "BG",
+                    "NewSprite3",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Static",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RepeatEveryXSeconds::Repeat"
+                  },
+                  "parameters": [
+                    "",
+                    "\"blur refresh\"",
+                    "0.055",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EnableLayerEffect"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "\"Blur\"",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RenderToSprite::RenderLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "BG",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EnableLayerEffect"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "\"Blur\"",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AjoutObjConcern"
+                  },
+                  "parameters": [
+                    "",
+                    "NewSprite3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SpriteMasking::Mask"
+                  },
+                  "parameters": [
+                    "",
+                    "BG",
+                    "NewSprite3",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SpriteMasking::Mask"
+                  },
+                  "parameters": [
+                    "",
+                    "BG",
+                    "NewSprite3",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "RenderToSprite::RenderLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "NewSprite3",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "BG"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "KawaseBlur",
+              "name": "Blur",
+              "doubleParameters": {
+                "blur": 20,
+                "padding": 0,
+                "pixelizeX": 10,
+                "pixelizeY": 10,
+                "quality": 4
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Layer",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "author": "Silver-Streak",
+      "category": "Input",
+      "extensionNamespace": "",
+      "fullName": "Double-click",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9DQoJLnN0MXtmaWxsOm5vbmU7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjI7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjEwO30NCjwvc3R5bGU+DQo8bGluZSBjbGFzcz0ic3QwIiB4MT0iMTYiIHkxPSIzIiB4Mj0iMTYiIHkyPSI2Ii8+DQo8bGluZSBjbGFzcz0ic3QwIiB4MT0iMTYiIHkxPSIxMCIgeDI9IjE2IiB5Mj0iMTMiLz4NCjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xNiwxMEwxNiwxMGMtMS4xLDAtMi0wLjktMi0ydjBjMC0xLjEsMC45LTIsMi0yaDBjMS4xLDAsMiwwLjksMiwydjBDMTgsOS4xLDE3LjEsMTAsMTYsMTB6Ii8+DQo8cGF0aCBjbGFzcz0ic3QwIiBkPSJNNywxNC4xYzIuMy0wLjcsNS41LTEuMSw5LTEuMWMzLjUsMCw2LjcsMC40LDksMS4xIi8+DQo8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMTYsMjlMMTYsMjljLTUsMC05LTQtOS05di01LjlWOWMwLTMuMywyLjctNiw2LTZoNmMzLjMsMCw2LDIuNyw2LDZ2MTFDMjUsMjUsMjEsMjksMTYsMjl6Ii8+DQo8L3N2Zz4NCg==",
+      "name": "DoubleClick",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Computers and Hardware/Computers and Hardware_mouse_wireless_pc.svg",
+      "shortDescription": "Check for a double-click with a mouse, or a double-tap on a touchscreen.",
+      "version": "1.0.2",
+      "description": [
+        "Allow you to check for double-clicks with the left, middle, or right button of a mouse. It will also allow you to detect double-taps on touchscreens. ",
+        "",
+        "Please note: Touch devices do not have alternatives for middle/right clicks. Taps on a touch device will get counted for _any_ use of these conditions, so you should either design your controls accordingly, or build out separate events if the device has a touch screen."
+      ],
+      "origin": {
+        "identifier": "DoubleClick",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "mouse",
+        "cursor",
+        "pointer",
+        "double-click",
+        "double-tap"
+      ],
+      "authorIds": [
+        "8Ih1aa8f5gWUp4UB2BdhQ2iXWxJ3"
+      ],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [
+        {
+          "description": "Check if the specified mouse button is clicked twice in a short amount of time.",
+          "fullName": "Double-clicked (or double-tapped)",
+          "functionType": "Condition",
+          "name": "HasDoubleClicked",
+          "sentence": "_PARAM1_ mouse button is double-clicked (or double-tap on a touchscreen)",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StrEqual"
+                  },
+                  "parameters": [
+                    "GetArgumentAsString(\"MouseButton\")",
+                    "=",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Timer"
+                      },
+                      "parameters": [
+                        "",
+                        "GlobalVariable(__DoubleClick_MaxDelay)",
+                        "\"__DoubleClick_LeftClickTimer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "RemoveTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"__DoubleClick_LeftClickTimer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "__DoubleClick_LeftCount",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "MouseButtonReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "__DoubleClick_LeftReleased",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Timer"
+                      },
+                      "parameters": [
+                        "",
+                        "GlobalVariable(__DoubleClick_MaxDelay)",
+                        "\"__DoubleClick_LeftClickTimer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SourisBouton"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "__DoubleClick_LeftCount",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "__DoubleClick_LeftReleased",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ResetTimer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"__DoubleClick_LeftClickTimer\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "__DoubleClick_LeftCount",
+                            "+",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "__DoubleClick_LeftReleased",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "__DoubleClick_LeftCount",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "__DoubleClick_LeftReleased",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetReturnBoolean"
+                          },
+                          "parameters": [
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "__DoubleClick_LeftReleased",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StrEqual"
+                  },
+                  "parameters": [
+                    "GetArgumentAsString(\"MouseButton\")",
+                    "=",
+                    "\"Middle\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Timer"
+                      },
+                      "parameters": [
+                        "",
+                        "GlobalVariable(__DoubleClick_MaxDelay)",
+                        "\"__DoubleClick_MiddleClickTimer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "RemoveTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"__DoubleClick_MiddleClickTimer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "__DoubleClick_MiddleCount",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "MouseButtonReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Middle"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "__DoubleClick_MiddleReleased",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Timer"
+                      },
+                      "parameters": [
+                        "",
+                        "GlobalVariable(__DoubleClick_MaxDelay)",
+                        "\"__DoubleClick_MiddleClickTimer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SourisBouton"
+                      },
+                      "parameters": [
+                        "",
+                        "Middle"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "__DoubleClick_MiddleCount",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "__DoubleClick_MiddleReleased",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ResetTimer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"__DoubleClick_MiddleClickTimer\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "__DoubleClick_MiddleCount",
+                            "+",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "__DoubleClick_MiddleReleased",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "__DoubleClick_MiddleCount",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "__DoubleClick_MiddleReleased",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetReturnBoolean"
+                          },
+                          "parameters": [
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "__DoubleClick_MiddleReleased",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StrEqual"
+                  },
+                  "parameters": [
+                    "GetArgumentAsString(\"MouseButton\")",
+                    "=",
+                    "\"Right\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Timer"
+                      },
+                      "parameters": [
+                        "",
+                        "GlobalVariable(__DoubleClick_MaxDelay)",
+                        "\"__DoubleClick_RightClickTimer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "RemoveTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"__DoubleClick_RightClickTimer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "__DoubleClick_RightCount",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "MouseButtonReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Right"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "__DoubleClick_RightReleased",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Timer"
+                      },
+                      "parameters": [
+                        "",
+                        "GlobalVariable(__DoubleClick_MaxDelay)",
+                        "\"__DoubleClick_RightClickTimer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SourisBouton"
+                      },
+                      "parameters": [
+                        "",
+                        "Right"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "__DoubleClick_RightCount",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "__DoubleClick_RightReleased",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ResetTimer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"__DoubleClick_RightClickTimer\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "__DoubleClick_RightCount",
+                            "+",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "__DoubleClick_RightReleased",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "__DoubleClick_RightCount",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "__DoubleClick_RightReleased",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetReturnBoolean"
+                          },
+                          "parameters": [
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "__DoubleClick_RightReleased",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Mouse button to track",
+              "longDescription": "As touch devices do not have middle/right tap equivalents, you will need to account for this within your events if you're not using the left mouse button and building for touch devices.",
+              "name": "MouseButton",
+              "type": "mouse"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Set the maximum delay between two clicks (or two taps) to be considered as a double click.",
+          "fullName": "Set the double click delay",
+          "functionType": "Action",
+          "name": "SetMaxDelay",
+          "sentence": "Set the double-click maximum delay between two clicks (or two taps) to _PARAM1_s",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "__DoubleClick_MaxDelay",
+                    "=",
+                    "GetArgumentAsNumber(\"MaxDelay\")"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Maximum delay (in seconds)",
+              "longDescription": "By default, this value is 0.5 seconds.",
+              "name": "MaxDelay",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "onFirstSceneLoaded",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "__DoubleClick_MaxDelay",
+                    "=",
+                    "0.5"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [],
+      "eventsBasedObjects": []
+    },
+    {
+      "author": "VegeTato, arthuro555",
+      "category": "General",
+      "extensionNamespace": "",
+      "fullName": "Repeat every X seconds",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXJlcGVhdCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0xNywxN0g3VjE0TDMsMThMNywyMlYxOUgxOVYxM0gxN003LDdIMTdWMTBMMjEsNkwxNywyVjVINVYxMUg3VjdaIiAvPjwvc3ZnPg==",
+      "name": "RepeatEveryXSeconds",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/repeat.svg",
+      "shortDescription": "Trigger an event every X seconds.",
+      "version": "0.1.1",
+      "description": "Convenience conditions, actions and behaviors for timers to trigger a condition every X seconds.",
+      "origin": {
+        "identifier": "RepeatEveryXSeconds",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "repeat",
+        "timer",
+        "time"
+      ],
+      "authorIds": [
+        "ZgrsWuRTAkXgeuPV9bo0zuEcA2w1",
+        "IRIhkkTTl2UHhfjrLTTH5GYwkYu1",
+        "IWykYNRvhCZBN3vEgKEbBPOR3Oc2"
+      ],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [
+        {
+          "description": "Triggers every X seconds.",
+          "fullName": "Repeat with a scene timer",
+          "functionType": "Condition",
+          "name": "Repeat",
+          "sentence": "Repeat every _PARAM2_ seconds using timer _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "TimerName",
+                    ">=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "player",
+                    "TimerName"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "__RepeatEveryXSeconds.Repetitions[TimerName]",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "TODO: It should keep the overflowing time to be more precise (it would need JavaScript)"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "player",
+                    "TimerName",
+                    ">=",
+                    "LoopDuration"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "player",
+                    "TimerName"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "__RepeatEveryXSeconds.Repetitions[TimerName]",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Timer name used to loop",
+              "name": "TimerName",
+              "type": "string"
+            },
+            {
+              "description": "Duration in seconds between each repetition",
+              "name": "LoopDuration",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "the number of times the timer has repeated.",
+          "fullName": "Repetition number of a scene timer",
+          "functionType": "ExpressionAndCondition",
+          "name": "Repetition",
+          "sentence": "Repetition number of timer _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "Variable(__RepeatEveryXSeconds.Repetitions[TimerName])"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Timer name used to loop",
+              "name": "TimerName",
+              "type": "string"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Triggers every X seconds X amount of times.",
+          "fullName": "Repeat with a scene timer X times",
+          "functionType": "Condition",
+          "name": "RepeatXTimes",
+          "sentence": "Repeat every _PARAM2_ seconds _PARAM3_ times using timer _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "MaxLoop",
+                        "<",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RepeatEveryXSeconds::Repetition"
+                      },
+                      "parameters": [
+                        "",
+                        "<",
+                        "MaxLoop",
+                        "TimerName",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RepeatEveryXSeconds::Repeat"
+                  },
+                  "parameters": [
+                    "",
+                    "TimerName",
+                    "LoopDuration",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Timer name used to loop",
+              "name": "TimerName",
+              "type": "string"
+            },
+            {
+              "description": "Duration in seconds between each repetition",
+              "name": "LoopDuration",
+              "type": "expression"
+            },
+            {
+              "description": "The limit of loops",
+              "longDescription": "Maximum nuber of repetition (-1 to repeat forever).",
+              "name": "MaxLoop",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Reset repetition count of a scene timer.",
+          "fullName": "Reset repetition count of a scene timer",
+          "functionType": "Action",
+          "name": "DeleteTimer",
+          "sentence": "Reset repetition count for timer _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "RemoveTimer"
+                  },
+                  "parameters": [
+                    "player",
+                    "TimerName"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VariableRemoveChild"
+                  },
+                  "parameters": [
+                    "__RepeatEveryXSeconds.Repetitions",
+                    "TimerName"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Timer name used to loop",
+              "name": "TimerName",
+              "type": "string"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Allows to repeat an object timer every X seconds.",
+          "fullName": "Repeat every X seconds",
+          "name": "RepeatTimer",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onCreated",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TimerName"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "RepeatEveryXSeconds::RepeatTimer",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Triggers every X seconds.",
+              "fullName": "Repeat with an object timer",
+              "functionType": "Condition",
+              "group": "Timers",
+              "name": "Repeat2",
+              "sentence": "Repeat every _PARAM3_ seconds using timer _PARAM2_ of _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TimerName",
+                        ">=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TimerName"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Object",
+                        "__RepeatEveryXSeconds.Repetitions[TimerName]",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "TODO: It should keep the overflowing time to be more precise (it would need JavaScript)"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TimerName",
+                        ">=",
+                        "LoopDuration"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TimerName"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Object",
+                        "__RepeatEveryXSeconds.Repetitions[TimerName]",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "RepeatEveryXSeconds::RepeatTimer",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Timer name used to loop",
+                  "name": "TimerName",
+                  "type": "string"
+                },
+                {
+                  "description": "Duration in seconds between each repetition",
+                  "name": "LoopDuration",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the number of times the timer has repeated.",
+              "fullName": "Repetition number of an object timer",
+              "functionType": "ExpressionAndCondition",
+              "group": "Timers",
+              "name": "Repetition",
+              "sentence": "Repetition number of timer _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Variable(__RepeatEveryXSeconds.Repetitions[TimerName])"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "RepeatEveryXSeconds::RepeatTimer",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Timer name used to loop",
+                  "name": "TimerName",
+                  "type": "string"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Triggers every X seconds X amount of times.",
+              "fullName": "Repeat with an object timer X times",
+              "functionType": "Condition",
+              "group": "Timers",
+              "name": "RepeatXTimes",
+              "sentence": "Repeat every _PARAM3_ seconds _PARAM4_ times using timer _PARAM2_ of _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "MaxLoop",
+                            "<",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "RepeatEveryXSeconds::RepeatTimer::Repetition"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "<",
+                            "MaxLoop",
+                            "TimerName",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RepeatEveryXSeconds::RepeatTimer::Repeat2"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "TimerName",
+                        "LoopDuration",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "RepeatEveryXSeconds::RepeatTimer",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Timer name used to loop",
+                  "name": "TimerName",
+                  "type": "string"
+                },
+                {
+                  "description": "Duration in seconds between each repetition",
+                  "name": "LoopDuration",
+                  "type": "expression"
+                },
+                {
+                  "description": "The limit of loops",
+                  "longDescription": "Maximum nuber of repetition (-1 to repeat forever).",
+                  "name": "MaxLoop",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Reset repetition count of an object timer.",
+              "fullName": "Reset repetition count of an object timer",
+              "functionType": "Action",
+              "group": "Timers",
+              "name": "DeleteTimer",
+              "sentence": "Reset repetition count for timer _PARAM2_ of _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "RemoveObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TimerName"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableRemoveChild"
+                      },
+                      "parameters": [
+                        "Object",
+                        "__RepeatEveryXSeconds.Repetitions",
+                        "TimerName"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "RepeatEveryXSeconds::RepeatTimer",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Timer name used to loop",
+                  "name": "TimerName",
+                  "type": "string"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Triggers every X seconds, where X is defined in the behavior properties.",
+              "fullName": "Repeat every X seconds (deprecated)",
+              "functionType": "Condition",
+              "name": "Repeat",
+              "private": true,
+              "sentence": "Recurring timer _PARAM1_ of _PARAM0_ has triggered",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TimerName",
+                        "TimerLength"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "RepeatEveryXSeconds::RepeatTimer::PropertyLimit"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "-1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "RepeatEveryXSeconds::RepeatTimer::PropertyCounter"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "<",
+                            "Limit"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TimerName"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RepeatEveryXSeconds::RepeatTimer::SetPropertyCounter"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "RepeatEveryXSeconds::RepeatTimer",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Pauses a recurring timer.",
+              "fullName": "Pause a recurring timer (deprecated)",
+              "functionType": "Action",
+              "name": "Pause",
+              "private": true,
+              "sentence": "Pause recurring timer _PARAM1_ of _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PauseObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TimerName"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "RepeatEveryXSeconds::RepeatTimer",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Resumes a paused recurring timer.",
+              "fullName": "Resume a recurring timer (deprecated)",
+              "functionType": "Action",
+              "name": "Resume",
+              "private": true,
+              "sentence": "Resume recurring timer _PARAM1_ of _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "UnPauseObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TimerName"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "RepeatEveryXSeconds::RepeatTimer",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Allows to trigger the recurring timer X times again.",
+              "fullName": "Reset the limit (deprecated)",
+              "functionType": "Action",
+              "name": "ResetLimit",
+              "private": true,
+              "sentence": "Allow to trigger the recurring timer _PARAM1_ of _PARAM0_ X times again",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "RepeatEveryXSeconds::RepeatTimer::SetPropertyCounter"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "RepeatEveryXSeconds::RepeatTimer",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "MyTimer",
+              "type": "String",
+              "label": "The name of the timer to repeat",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "deprecated": true,
+              "name": "TimerName"
+            },
+            {
+              "value": "1",
+              "type": "Number",
+              "label": "The time between each trigger (in seconds)",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "deprecated": true,
+              "name": "TimerLength"
+            },
+            {
+              "value": "-1",
+              "type": "Number",
+              "label": "How many times should the timer trigger? -1 for forever.",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "deprecated": true,
+              "name": "Limit"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "An internal counter",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "Counter"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        }
+      ],
+      "eventsBasedObjects": []
+    },
+    {
+      "author": "Arthur Pacaud (arthuro555)",
+      "category": "Visual effect",
+      "extensionNamespace": "",
+      "fullName": "Object Masking",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXRyYW5zaXRpb24tbWFza2VkIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTE1LDJDMTYuOTQsMiAxOC41OSwyLjcgMTkuOTUsNC4wNUMyMS4zLDUuNDEgMjIsNy4wNiAyMiw5QzIyLDEwLjU2IDIxLjUsMTEuOTYgMjAuNTgsMTMuMkMxOS42NCwxNC40MyAxOC40NCwxNS4yNyAxNi45NywxNS43TDE3LDE1LjM4VjE1QzE3LDEyLjgxIDE2LjIzLDEwLjkzIDE0LjY1LDkuMzVDMTMuMDcsNy43NyAxMS4xOSw3IDksN0g4LjYzTDguMyw3LjAzQzguNzMsNS41NiA5LjU3LDQuMzYgMTAuOCwzLjQyQzEyLjA0LDIuNSAxMy40NCwyIDE1LDJNOSw4QTcsNyAwIDAsMSAxNiwxNUE3LDcgMCAwLDEgOSwyMkE3LDcgMCAwLDEgMiwxNUE3LDcgMCAwLDEgOSw4TTksMTBBNSw1IDAgMCwwIDQsMTVBNSw1IDAgMCwwIDksMjBBNSw1IDAgMCwwIDE0LDE1QTUsNSAwIDAsMCA5LDEwWiIgLz48L3N2Zz4=",
+      "name": "SpriteMasking",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/transition-masked.svg",
+      "shortDescription": "Use a sprite or a shape painter to mask another object.",
+      "version": "2.1.1",
+      "description": "When masked, the masked object is only visible through the mask.",
+      "origin": {
+        "identifier": "SpriteMasking",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "masking",
+        "javascript",
+        "pixi",
+        "sprites"
+      ],
+      "authorIds": [
+        "ZgrsWuRTAkXgeuPV9bo0zuEcA2w1"
+      ],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [
+        {
+          "description": "Define a shape painter as a mask of an object.",
+          "fullName": "Mask an object with a shape painter",
+          "functionType": "Action",
+          "name": "MaskWithShapePainter",
+          "sentence": "Mask _PARAM1_ with mask _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const maskObject = eventsFunctionContext.getObjects(\"Mask\")[0];",
+                "if (!maskObject) return;",
+                "",
+                "const maskedObjects = eventsFunctionContext.getObjects(\"Masked\");",
+                "for (const maskedObject of maskedObjects) {",
+                "    const maskedRenderer = maskedObject.getRendererObject(); ",
+                "    maskedRenderer.mask = maskObject.getRendererObject();",
+                "}",
+                "",
+                ""
+              ],
+              "parameterObjects": "masked",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object to mask",
+              "name": "Masked",
+              "type": "objectList"
+            },
+            {
+              "description": "Shape painter to use as a mask",
+              "name": "Mask",
+              "supplementaryInformation": "PrimitiveDrawing::Drawer",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Define a sprite as a mask of an object.",
+          "fullName": "Mask an object with a sprite",
+          "functionType": "Action",
+          "name": "Mask",
+          "sentence": "Mask _PARAM1_ with mask _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const maskObject = eventsFunctionContext.getObjects(\"Mask\")[0];",
+                "if (!maskObject) return;",
+                "",
+                "const maskedObjects = eventsFunctionContext.getObjects(\"Masked\");",
+                "for (const maskedObject of maskedObjects) {",
+                "    const maskedRenderer = maskedObject.getRendererObject(); ",
+                "    maskedRenderer.mask = maskObject.getRendererObject();",
+                "}",
+                "",
+                ""
+              ],
+              "parameterObjects": "masked",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object to mask",
+              "name": "Masked",
+              "type": "objectList"
+            },
+            {
+              "description": "Sprite object to use as a mask",
+              "name": "Mask",
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Remove the mask of the specified object.",
+          "fullName": "Remove the mask",
+          "functionType": "Action",
+          "name": "Unmask",
+          "sentence": "Remove the mask of _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const maskedObjects = eventsFunctionContext.getObjects(\"Masked\");",
+                "",
+                "for (const maskedObject of maskedObjects) {",
+                "    const maskedRenderer = maskedObject.getRendererObject(); ",
+                "    maskedRenderer.mask = null;",
+                "}",
+                ""
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object with a mask to remove",
+              "name": "Masked",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [],
+      "eventsBasedObjects": []
+    },
+    {
+      "author": "Arthur Pacaud (arthuro555)",
+      "category": "Advanced",
+      "extensionNamespace": "",
+      "fullName": "Sprite Snapshot",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWNhbWVyYS1lbmhhbmNlIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTksM0w3LjE3LDVINEEyLDIgMCAwLDAgMiw3VjE5QTIsMiAwIDAsMCA0LDIxSDIwQTIsMiAwIDAsMCAyMiwxOVY3QTIsMiAwIDAsMCAyMCw1SDE2LjgzTDE1LDNNMTIsMThBNSw1IDAgMCwxIDcsMTNBNSw1IDAgMCwxIDEyLDhBNSw1IDAgMCwxIDE3LDEzQTUsNSAwIDAsMSAxMiwxOE0xMiwxN0wxMy4yNSwxNC4yNUwxNiwxM0wxMy4yNSwxMS43NUwxMiw5TDEwLjc1LDExLjc1TDgsMTNMMTAuNzUsMTQuMjUiIC8+PC9zdmc+",
+      "name": "RenderToSprite",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/camera-enhance.svg",
+      "shortDescription": "Renders an object, layer, scene or an area of a scene and puts the resulting image into a sprite.",
+      "version": "0.0.4",
+      "description": [
+        "Allows rendering (creating an image) of objects, layers and the scene to display in a sprite. ",
+        "This allows to make optimizations by transforming the resulting image of a shape painter into a faster sprite, or to make viewports/cameras."
+      ],
+      "origin": {
+        "identifier": "RenderToSprite",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "experimental",
+        "non-public apis",
+        "visual",
+        "sprite",
+        "viewport",
+        "camera",
+        "render",
+        "texture",
+        "pixijs",
+        "snapshot"
+      ],
+      "authorIds": [
+        "ZgrsWuRTAkXgeuPV9bo0zuEcA2w1",
+        "PEzPAaWHgYgk5UwIPppsL6f2ugp2"
+      ],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "onFirstSceneLoaded",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "gdjs._renderToSprite = {};",
+                "gdjs._renderToSprite.rt = PIXI.RenderTexture.create({ width: 100, height: 100 });",
+                "gdjs._renderToSprite.sprite = PIXI.Sprite.from(gdjs._renderToSprite.rt);",
+                ""
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Renders an object and puts the rendered image into a sprite object.",
+          "fullName": "Render an object into a sprite",
+          "functionType": "Action",
+          "name": "RenderObject",
+          "sentence": "Render _PARAM1_ into sprite _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const source = eventsFunctionContext.getObjects(\"source\")[0].getRendererObject();",
+                "const renderTarget = eventsFunctionContext.getObjects(\"renderTarget\")[0].getRendererObject();",
+                "",
+                "// Reset position so that it is not offscreen while rendering",
+                "const { x: originalX, y: originalY } = source.position;",
+                "const { width, height, x, y } = source.getLocalBounds();",
+                "source.position = { x: -x, y: -y };",
+                "",
+                "// Ensure the target is a RenderTexture of the correct size",
+                "if (renderTarget.texture instanceof PIXI.RenderTexture) {",
+                "    renderTarget.texture.resize(width, height);",
+                "} else {",
+                "    renderTarget.texture = PIXI.RenderTexture.create({",
+                "        width,",
+                "        height,",
+                "        scaleMode: runtimeScene.getGame().getScaleMode() === \"linear\"",
+                "            ? PIXI.SCALE_MODES.LINEAR",
+                "            : PIXI.SCALE_MODES.NEAREST",
+                "    });",
+                "}",
+                "",
+                "// Render 😎",
+                "runtimeScene",
+                "    .getGame()",
+                "    .getRenderer()",
+                "    .getPIXIRenderer()",
+                "    .render(source, { renderTexture: renderTarget.texture });",
+                "",
+                "// Restore original position",
+                "source.position = { x: originalX, y: originalY };",
+                ""
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [
+            {
+              "description": "The object to render",
+              "name": "source",
+              "type": "objectList"
+            },
+            {
+              "description": "The sprite to render to",
+              "name": "renderTarget",
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Renders a layer and puts the rendered image into a sprite object.",
+          "fullName": "Render a layer into a sprite",
+          "functionType": "Action",
+          "name": "RenderLayer",
+          "sentence": "Render layer _PARAM1_ into sprite _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const source = runtimeScene.getLayer(eventsFunctionContext.getArgument(\"layer\")).getRenderer().getRendererObject();",
+                "const height = runtimeScene.getLayer(\"\").getCameraHeight();",
+                "const width = runtimeScene.getLayer(\"\").getCameraWidth();",
+                "/** @type {gdjs.SpriteRuntimeObject} */",
+                "const obj = objects[0];",
+                "/** @type {PIXI.Sprite} */",
+                "const renderTarget = obj.getRendererObject();",
+                "",
+                "// Prepare for render",
+                "runtimeScene._updateLayersPreRender();",
+                "runtimeScene._updateObjectsPreRender();",
+                "",
+                "// Ensure the target is a RenderTexture of the correct size",
+                "gdjs._renderToSprite.rt.resize(width, height)",
+                "if (renderTarget.texture instanceof PIXI.RenderTexture) {",
+                "    renderTarget.texture.resize(width, height);",
+                "} else {",
+                "    renderTarget.texture = PIXI.RenderTexture.create({",
+                "        width,",
+                "        height,",
+                "        scaleMode: runtimeScene.getGame().getScaleMode() === \"linear\"",
+                "            ? PIXI.SCALE_MODES.LINEAR",
+                "            : PIXI.SCALE_MODES.NEAREST",
+                "    });",
+                "}",
+                "",
+                "// Prerender to a temporary texture to prevent WebGL erroring out.",
+                "// See https://www.html5gamedevs.com/topic/45423-why-is-this-not-allowed/",
+                "runtimeScene",
+                "    .getGame()",
+                "    .getRenderer()",
+                "    .getPIXIRenderer()",
+                "    .render(source, { renderTexture: gdjs._renderToSprite.rt });",
+                "",
+                "// Actually render 😎",
+                "runtimeScene",
+                "    .getGame()",
+                "    .getRenderer()",
+                "    .getPIXIRenderer()",
+                "    .render(gdjs._renderToSprite.sprite, { renderTexture: renderTarget.texture });",
+                "",
+                "// Ensure the original width/heigth is restored",
+                "renderTarget.width = obj.getWidth();",
+                "renderTarget.height = obj.getHeight();",
+                ""
+              ],
+              "parameterObjects": "renderTarget",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [
+            {
+              "description": "The layer to render",
+              "name": "layer",
+              "supplementaryInformation": "Sprite",
+              "type": "layer"
+            },
+            {
+              "description": "The sprite to render to",
+              "name": "renderTarget",
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Renders a scene and puts the rendered image into a sprite object.",
+          "fullName": "Render a scene into a sprite",
+          "functionType": "Action",
+          "name": "RenderScene",
+          "sentence": "Render the current scene into sprite _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const source = runtimeScene.getRenderer().getPIXIContainer();",
+                "const height = runtimeScene.getLayer(\"\").getCameraHeight();",
+                "const width = runtimeScene.getLayer(\"\").getCameraWidth();",
+                "/** @type {gdjs.SpriteRuntimeObject} */",
+                "const obj = objects[0];",
+                "/** @type {PIXI.Sprite} */",
+                "const renderTarget = obj.getRendererObject();",
+                "",
+                "// Prepare for render",
+                "runtimeScene._updateLayersPreRender();",
+                "runtimeScene._updateObjectsPreRender();",
+                "",
+                "// Ensure the target is a RenderTexture of the correct size",
+                "gdjs._renderToSprite.rt.resize(width, height);",
+                "if (renderTarget.texture instanceof PIXI.RenderTexture) {",
+                "    renderTarget.texture.resize(width, height);",
+                "} else {",
+                "    renderTarget.texture = PIXI.RenderTexture.create({",
+                "        width,",
+                "        height,",
+                "        scaleMode: runtimeScene.getGame().getScaleMode() === \"linear\"",
+                "            ? PIXI.SCALE_MODES.LINEAR",
+                "            : PIXI.SCALE_MODES.NEAREST",
+                "    });",
+                "}",
+                "",
+                "// Prerender to a temporary texture to prevent WebGL erroring out.",
+                "// See https://www.html5gamedevs.com/topic/45423-why-is-this-not-allowed/",
+                "runtimeScene",
+                "    .getGame()",
+                "    .getRenderer()",
+                "    .getPIXIRenderer()",
+                "    .render(source, { renderTexture: gdjs._renderToSprite.rt });",
+                "",
+                "// Actually render 😎",
+                "runtimeScene",
+                "    .getGame()",
+                "    .getRenderer()",
+                "    .getPIXIRenderer()",
+                "    .render(gdjs._renderToSprite.sprite, { renderTexture: renderTarget.texture });",
+                "",
+                "// Ensure the original width/heigth is restored",
+                "renderTarget.width = obj.getWidth();",
+                "renderTarget.height = obj.getHeight();",
+                ""
+              ],
+              "parameterObjects": "renderTarget",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ],
+          "parameters": [
+            {
+              "description": "The sprite to render to",
+              "name": "renderTarget",
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Renders a defined area of a scene and puts the rendered image into a sprite object.",
+          "fullName": "Render an area of a scene into a sprite",
+          "functionType": "Action",
+          "name": "RenderSceneArea",
+          "sentence": "Render the area of a current scene into Sprite: _PARAM1_, from OriginX: _PARAM2_, OriginY: _PARAM3_, with Width: _PARAM4_, Height: _PARAM5_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const source = runtimeScene.getRenderer().getPIXIContainer();",
+                "source.x = eventsFunctionContext.getArgument(\"originPositionX\") * -1;",
+                "source.y = eventsFunctionContext.getArgument(\"originPositionY\") * -1;",
+                "const width = eventsFunctionContext.getArgument(\"areaWidth\");",
+                "const height = eventsFunctionContext.getArgument(\"areaHeight\");",
+                "/** @type {gdjs.SpriteRuntimeObject} */",
+                "const obj = objects[0];",
+                "/** @type {PIXI.Sprite} */",
+                "const renderTarget = obj.getRendererObject();",
+                "",
+                "// Prepare for render",
+                "runtimeScene._updateLayersPreRender();",
+                "runtimeScene._updateObjectsPreRender();",
+                "",
+                "// Ensure the target is a RenderTexture of the correct size",
+                "gdjs._renderToSprite.rt.resize(width, height);",
+                "if (renderTarget.texture instanceof PIXI.RenderTexture) {",
+                "    renderTarget.texture.resize(width, height);",
+                "} else {",
+                "    renderTarget.texture = PIXI.RenderTexture.create({",
+                "        width,",
+                "        height,",
+                "        scaleMode: runtimeScene.getGame().getScaleMode() === \"linear\"",
+                "            ? PIXI.SCALE_MODES.LINEAR",
+                "            : PIXI.SCALE_MODES.NEAREST",
+                "    });",
+                "}",
+                "",
+                "// Prerender to a temporary texture to prevent WebGL erroring out.",
+                "// See https://www.html5gamedevs.com/topic/45423-why-is-this-not-allowed/",
+                "runtimeScene",
+                "    .getGame()",
+                "    .getRenderer()",
+                "    .getPIXIRenderer()",
+                "    .render(source, { renderTexture: gdjs._renderToSprite.rt });",
+                "",
+                "// Actually render 😎",
+                "runtimeScene",
+                "    .getGame()",
+                "    .getRenderer()",
+                "    .getPIXIRenderer()",
+                "    .render(gdjs._renderToSprite.sprite, { renderTexture: renderTarget.texture });",
+                "",
+                "// Ensure the original width/heigth is restored",
+                "renderTarget.width = obj.getWidth();",
+                "renderTarget.height = obj.getHeight();",
+                "",
+                "//Return render area to original place",
+                "source.x = 0;",
+                "source.y = 0;",
+                ""
+              ],
+              "parameterObjects": "renderTarget",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ],
+          "parameters": [
+            {
+              "description": "The sprite to render to",
+              "name": "renderTarget",
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
+            },
+            {
+              "description": "Origin X position of the render area",
+              "name": "originPositionX",
+              "type": "expression"
+            },
+            {
+              "description": "Origin Y Position of the render area",
+              "name": "originPositionY",
+              "type": "expression"
+            },
+            {
+              "description": "Width of the are to render",
+              "name": "areaWidth",
+              "type": "expression"
+            },
+            {
+              "description": "Height of the area to render",
+              "name": "areaHeight",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [],
+      "eventsBasedObjects": []
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
